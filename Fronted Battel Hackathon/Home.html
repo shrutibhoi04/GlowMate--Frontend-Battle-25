@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GlowMate | Beauty That Speaks</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>GlowMate</h1>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#testimonial">Testimonial</a>
+    </nav>
+  </header>
+
+  <div class="main-content" id="mainContent">
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Beauty That Speaks</h2>
+        <p>Experience the elegance of our signature products designed to bring out the best version of you.</p>
+        <button id="exploreBtn" class="explore-button">Explore Now</button>
+      </div>
+      <div class="video-container">
+        <video autoplay loop muted playsinline>
+          <source src="FrontProduct.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="feature-card">
+        <h3>Organic Formula</h3>
+        <p>Made from the best natural ingredients to care for your skin.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Customer Favorite</h3>
+        <p>Loved and rated 5 stars by over 10,000 happy users worldwide.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Luxurious Finish</h3>
+        <p>A radiant touch for your everyday look or special occasions.</p>
+      </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+      <h3>What Our Users Say</h3>
+      <p>"GlowMate gave me the confidence I needed every day!"</p>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-main">
+          <div class="footer-section">
+            <h3>Stay Connected</h3>
+            <p>Join our beauty community and discover the latest trends, tips, and exclusive offers that will enhance your natural glow.</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/" class="social-icon" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.instagram.com/webnd.iitbbs/" class="social-icon" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://x.com/webnd_iitbbs?t=NDYEYHCK7kKDnRdvVoaW2g&s=09
+" class="social-icon" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/company/webd-iitbbs/
+" class="social-icon" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h3>Newsletter</h3>
+            <p>Subscribe to get special offers, beauty tips, and updates delivered to your inbox.</p>
+            <form class="newsletter-form" id="newsletterForm">
+              <input 
+                type="email" 
+                class="newsletter-input" 
+                placeholder="Enter your email address"
+                required
+                id="emailInput"
+              >
+              <button type="submit" class="newsletter-button">Subscribe</button>
+            </form>
+            <div class="newsletter-message" id="newsletterMessage"></div>
+          </div>
+
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul class="quick-links">
+              <li><a href="#features">Our Features</a></li>
+              <li><a href="#testimonial">Testimonials</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#privacy">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-bottom-content">
+            <div class="copyright">
+            </div>
+            <div class="footer-tagline">
+              "Beauty That Speaks" - Designed for Frontend Battle'25
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Loader -->
+  <div class="loader-container" id="loader">
+    <div class="loader-content">
+      <div class="loader-text">Loading Our Beautiful Products...</div>
+      <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+      <div class="progress-percentage" id="progressText">0%</div>
+    </div>
+  </div>
+
+  <!-- Enhanced Product Page -->
+  <div class="product-page" id="productPage">
+    <button class="back-button" id="backBtn">← Back to Home</button>
+    
+    <section class="product-hero">
+      <h2>Our Signature Collection</h2>
+      <p>Discover our carefully curated selection of premium beauty products, each designed to enhance your natural radiance and boost your confidence.</p>
+    </section>
+
+    <section class="products-grid">
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=400&h=300&fit=crop&crop=center" alt="Radiant Glow Lipstick - Premium matte lipstick in elegant packaging" class="product-image" />
+          <div class="product-overlay">💄</div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">Radiant Glow Lipstick</h3>
+          <p class="product-description">A luxurious matte lipstick that provides long-lasting color with a comfortable, non-drying formula.</p>
+          <div class="product-price">$24.99</div>
+          <button class="product-button" data-product="lipstick">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&h=300&fit=crop&crop=center" alt="Luminous Face Serum - Organic vitamin C brightening serum" class="product-image" />
+          <div class="product-overlay"></div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">Luminous Face Serum</h3>
+          <p class="product-description">An organic brightening serum infused with vitamin C and natural botanicals for glowing skin.</p>
+          <div class="product-price">$39.99</div>
+          <button class="product-button" data-product="serum">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&h=300&fit=crop&crop=center" alt="Petal Soft Foundation - Lightweight buildable foundation" class="product-image" />
+          <div class="product-overlay"></div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">Petal Soft Foundation</h3>
+          <p class="product-description">A lightweight, buildable foundation that provides natural coverage with a dewy finish.</p>
+          <div class="product-price">$32.99</div>
+          <button class="product-button" data-product="foundation">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=400&h=300&fit=crop&crop=center" alt="Enchanted Eye Palette - 12-shade versatile eyeshadow palette" class="product-image" />
+          <div class="product-overlay"></div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">Enchanted Eye Palette</h3>
+          <p class="product-description">A versatile eyeshadow palette with 12 stunning shades for day and night looks.</p>
+          <div class="product-price">$45.99</div>
+          <button class="product-button" data-product="eyeshadow">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400&h=300&fit=crop&crop=center" alt="Bloom Blush Duo - Two complementary blush shades" class="product-image" />
+          <div class="product-overlay"></div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">Bloom Blush Duo</h3>
+          <p class="product-description">Two complementary blush shades that blend seamlessly for a natural, healthy glow.</p>
+          <div class="product-price">$28.99</div>
+          <button class="product-button" data-product="blush">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400&h=300&fit=crop&crop=center" alt="Velvet Touch Nail Polish - Quick-dry chip-resistant formula" class="product-image" />
+          <div class="product-overlay"></div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">Velvet Touch Nail Polish</h3>
+          <p class="product-description">Quick-dry nail polish with a chip-resistant formula in our signature pink shade.</p>
+          <div class="product-price">$18.99</div>
+          <button class="product-button" data-product="polish">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
